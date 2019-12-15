@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css/fontello.css">
+    <link rel="stylesheet" href="webpage01.css" type="text/css">
+</head>
+   
+<body>
+   <header>
+       <h1><a href="web01.html"><span style="font-size: 1rem; vertical-align: text-top; ">the</span>food<br> feed</h1></a>
+       <div class="main_img"></div>
+   </header>
+  <div class="container">
+   <nav>
+      <div class="maincontents">
+           <div class="left">
+           <div class="maintext"><h2>BREAKFAST</h2></div>
+       
+           </div>
+           <div class="right">
+           <div class="maintext"><h2>WINE & DINE</h2></div> 
+        
+           
+           </div>
+           <div class="center">
+           <div class="maintext"><h2>UNDER $20</h2></div>
+        
+           </div>
+  
+      </div>
+       
+   </nav>
+   <section>
+      <div class="contents">
+       <article>
+       <h2 style="background-color: black; color:white; z-index: 0;font-size: 2rem;position: relative;top:50px;left:180px;display: inline;">the feed</h2>
+        <div class="article">
+        
+            <div class="articleimg"></div> 
+            <h3>A Bagle is Never Just a Bagel</h3>
+            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading. Welcome to your blog post. Use this space to connect with your readers and </p>
+        </div>
+        
+        <div class="article">
+            <div class="articleimg"></div>
+            <h3>Vegetarian Alternatives You’ll Love</h3>
+            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading. Welcome to your blog post. Use this space to connect with your readers and potential customers in a way that’s current and interesting. Think of it as an ongoing conversation where y</p>
+        </div>
+        
+        <div class="article">
+            <div class="articleimg"></div>
+            <h3>Build a Better Sandwich</h3>
+            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading. Welcome to your blog post. Use this space to connect with your readers and </p>
+        </div>
+        
+        <div class="article">
+            <div class="articleimg"></div>
+            <h3>It's Never Too Late for Brunch</h3>
+            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading. Welcome to your blog post. Use this space to connect with your readers and potential customers in a way that’s current and interesting. Think of it as an ongoing conversation where you </p>
+        </div>
+        
+        <div class="article">
+            <div class="articleimg"></div>
+            <h3>How to Eat Well at Work</h3>
+            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading. Welcome to your blog post. Use this space to connect with your readers and potential customers in a way that’s current and interesting. Think of it as an ongoing conversation where you </p>
+        </div>
+        
+        <div class="article">
+            <div class="articleimg"></div>
+            <h3>Tex Mex Salad Inspo</h3>
+            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading. Welcome to your blog post. Use this space to connect with your readers and </p>
+        </div>
+        
+        <div class="article">
+            <div class="articleimg"></div>
+            <h3>How to Plan the Perfect Buffet</h3>
+            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading. Welcome to your blog post. Use this space to connect with your readers and </p>
+        </div>
+        
+        </article>
+       </div>
+   </section>
+   
+   <main></main>
+   <aside></aside>
+   <footer>
+      <div class="footer">
+         <div class="Fcontents">
+               <span class ="Fhome">HOME</span>
+               <SPAN class ="FB">BREAKFAST</SPAN>
+               <SPAN class ="FB">UNDER $20</SPAN>
+               <SPAN class ="FB">WIND & DINE</SPAN>
+               <SPAN class ="FB">ABOUT ME</SPAN>
+               <div class="icon">
+                   <span><i class="icon-facebook"></i></span>
+                   <span><i class="icon-twitter-1"></i></span>
+                   <span><i class="icon-youtube"></i></span>
+                   <span><i class="icon-comment"></i></span>
+               </div>
+               
+           </div>
+            <div class="Fconsole">   
+               <DIV class="Fconsole_a"><input type="text" id ="search" placeholder = "Join My Malling List"><input type="button" id="button" value="SUBSCRIBE"></DIV>
+               <div style="text-align: right">© 2023 by The Food Feed. Proudly created with <img style="width:30px;" src="headphones.png"></div>
+           </div>
+          
+      </div>
+       
+   </footer>
+ </div>    
+</body>
+</html>
