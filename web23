@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css/fontello.css">
+    <link rel="stylesheet" href="webpage01.css" type="text/css">
+</head>
+   <style>
+       *{
+           border: 1px solid gray;
+           box-sizing: border-box;
+       }
+       body{
+           margin:0;
+           padding:0;
+       }
+       article{
+           width:800px;
+           margin: 0 auto 100px auto;
+           
+       }
+       .main_img{
+           background-image: url(food_back.jpg);
+           background-size: cover;
+           background-position: center
+       }
+       .article{
+           margin: 30px 0 10px 0;
+           height :500px;
+           
+       }
+       .articleimg{
+           background-image: url(food1.jpg);
+           background-size: cover;
+           background-position: center;
+       }
+       .article p{
+           overflow: hidden;
+       }
+       .article h3{
+           font-size: 1.5rem;
+           margin-top:0;
+       }
+       .articleimg{
+           height: 300px;
+       }
+       
+       .main_img{
+           height: 300px;
+       }
+       .container{
+           width:1240px;
+           margin: 0 auto;
+       }
+       .maincontents{
+           width:1000px;
+           margin: 0 auto;
+       }
+       nav h2{
+           margin:0;
+           padding: 10px;
+       }
+       .maintext{
+           height: 240px;
+           background-image: url(food1.jpg);
+           background-size: cover;
+           background-position: center;
+       }
+       .left,.right,.center{
+           width: calc(90%/3);
+           height: 300px;
+           margin: 15px;
+           background-size: cover;
+           background-position: center;
+       }
+       .left{
+           float: left;
+          
+       }
+       .right{
+           float: right;
+         
+       }
+       .center{
+           display: inline-block;
+           
+       }
+       .contents{
+           clear: both;
+       }
+       footer{
+           width:100%;
+           position: fixed;
+           bottom:0;
+           
+       }
+       #header{
+           position: fixed;
+           top:30px;
+           left: 50px;
+           background-color: white;
+           color: black;
+           width: 150px;
+           height: 150px;
+           padding: 30px;
+           border-radius: 100%;
+           text-align: center;
+       }
+       .icon{
+           float: right;
+       }
+       #search{
+           margin-right: 20px;
+       }
+       .footer{
+           
+       }
+       .Fcontents{
+           font-size: 1.2rem;
+       }
+       .Fconsole_a{
+           text-align: left;
+           margin-left: 230px;
+           
+       }
+    
+    
+    </style>
+<body>
+   <header>
+       <h1 id="header"><a href="web01.html"><span style="font-size: 1rem; vertical-align: text-top; ">the</span>food<br> feed</h1></a>
+       <div class="main_img"></div>
+   </header>
+  <div class="container">
+   <nav>
+      <div class="maincontents">
+           <div class="left">
+           <h2>BREAKFAST</h2>
+           <div class="maintext"></div>
+       
+           </div>
+           <div class="right">
+           <h2>WINE & DINE</h2>
+           <div class="maintext"></div> 
+        
+           
+           </div>
+           <div class="center">
+           <h2>UNDER $20</h2>
+           <div class="maintext"></div>
+        
+           </div>
+  
+      </div>
+       
+   </nav>
+   <section>
+      <div class="contents">
+       <article>
+       <h2 style="background-color: black; color:white; z-index: 0;font-size: 2rem;position: relative;top:30px;right:100px;display: inline;">the feed</h2>
+        <div class="article">
+            
+            <h3>A Bagle is Never Just a Bagel</h3>
+            <div class="articleimg"></div> 
+            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading. Welcome to your blog post. Use this space to connect with your readers and </p>
+        </div>
+        <div class="article">
+            <h3>A Bagle is Never Just a Bagel</h3>
+            <div class="articleimg"></div> 
+            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading. Welcome to your blog post. Use this space to connect with your readers and </p>
+        </div>
+        <div class="article">
+            <h3>A Bagle is Never Just a Bagel</h3>
+            <div class="articleimg"></div> 
+            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading. Welcome to your blog post. Use this space to connect with your readers and </p>
+        </div>
+        
+        
+        </article>
+       </div>
+   </section>
+   
+   <main></main>
+   <aside>
+       
+   </aside>
+   <footer>
+      <div class="footer">
+         <div class="Fcontents">
+               <span class ="Fhome">HOME</span>
+               <SPAN class ="FB">BREAKFAST</SPAN>
+               <SPAN class ="FB">UNDER $20</SPAN>
+               <SPAN class ="FB">WIND & DINE</SPAN>
+               <SPAN class ="FB">ABOUT ME</SPAN>
+               <div class="icon">
+                   <span><i class="icon-facebook"></i></span>
+                   <span><i class="icon-twitter-1"></i></span>
+                   <span><i class="icon-youtube"></i></span>
+                   <span><i class="icon-comment"></i></span>
+               </div>
+               
+           </div>
+            <div class="Fconsole">   
+               <DIV class="Fconsole_a"><input type="text" id ="search" placeholder = "Join My Malling List"><input type="button" id="button" value="SUBSCRIBE"></DIV>
+               <div style="text-align: right">© 2023 by The Food Feed. Proudly created with <img style="width:30px;" src="headphones.png"></div>
+           </div>
+          
+      </div>
+       
+   </footer>
+ </div>    
+</body>
+</html>
