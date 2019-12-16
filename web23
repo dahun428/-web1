@@ -112,17 +112,35 @@
        }
        #search{
            margin-right: 20px;
-       }
-       .footer{
+           border:1px solid white;
+           background-color:gray;
            
        }
+       #button{
+           background-color: black;
+           color:white;
+           padding: 3px;
+       }
+       input::placeholder{
+           color:white;
+       }
        .Fcontents{
+           background-color:black;
+           color:white;
            font-size: 1.2rem;
+       } 
+      
+       
+       .Fconsole{
+           background-color:gray;
        }
        .Fconsole_a{
            text-align: left;
            margin-left: 230px;
            
+       }
+       .FB{
+           margin: 0 10px 0 10px;
        }
     
     
@@ -188,11 +206,14 @@
    <footer>
       <div class="footer">
          <div class="Fcontents">
-               <span class ="Fhome">HOME</span>
+              
+                  <span class ="FB">HOME</span>
                <SPAN class ="FB">BREAKFAST</SPAN>
                <SPAN class ="FB">UNDER $20</SPAN>
                <SPAN class ="FB">WIND & DINE</SPAN>
                <SPAN class ="FB">ABOUT ME</SPAN>
+            
+               
                <div class="icon">
                    <span><i class="icon-facebook"></i></span>
                    <span><i class="icon-twitter-1"></i></span>
@@ -203,7 +224,7 @@
            </div>
             <div class="Fconsole">   
                <DIV class="Fconsole_a"><input type="text" id ="search" placeholder = "Join My Malling List"><input type="button" id="button" value="SUBSCRIBE"></DIV>
-               <div style="text-align: right">© 2023 by The Food Feed. Proudly created with <img style="width:30px;" src="headphones.png"></div>
+               <div style="text-align: right; margin-right: 20px;">© 2023 by The Food Feed. Proudly created with <img style="width:30px;" src="headphones.png"></div>
            </div>
           
       </div>
